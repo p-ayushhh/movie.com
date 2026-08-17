@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import logo from '@/imports/Frame_12.png'
+///import logo from '@/imports/Frame_12.png'//
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -391,7 +391,7 @@ export default function App() {
 
           {/* Logo */}
           <div className="flex items-center gap-2 shrink-0">
-            <img src={logo} alt="CineStream" className="h-8 w-auto" />
+            <img src="/logo.png" alt="CineStream" className="h-8 w-auto" />
             <span className="font-playfair font-bold text-xl tracking-tight hidden sm:block">
               <span className="text-white">Cine</span><span style={{ color: '#dc2626' }}>Stream</span>
             </span>
@@ -663,7 +663,7 @@ export default function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
             <div className="lg:col-span-1">
               <div className="flex items-center gap-2 mb-4">
-                <img src={logo} alt="CineStream" className="h-8 w-auto" />
+                <img src="/logo.png" alt="CineStream" className="h-8 w-auto" />
                 <span className="font-playfair font-bold text-xl">
                   <span className="text-white">Cine</span><span style={{ color: '#dc2626' }}>Stream</span>
                 </span>
