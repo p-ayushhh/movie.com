@@ -391,7 +391,7 @@ export default function App() {
 
           {/* Logo */}
           <div className="flex items-center gap-2 shrink-0">
-            <img src="/logo.png" alt="CineStream" className="h-8 w-auto" />
+            <img src="/logo.png?v=2" alt="CineStream" className="h-8 w-auto" />
             <span className="font-playfair font-bold text-xl tracking-tight hidden sm:block">
               <span className="text-white">Cine</span><span style={{ color: '#dc2626' }}>Stream</span>
             </span>
